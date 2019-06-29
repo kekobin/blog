@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul {
+            margin: 0;
+            padding: 0;
+            outline: none;
+            width: 100%;
+            overflow: hidden;
+        }
+        li {
+            min-height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li>
+            <img data-src="./images/1.jpg" alt="loading">
+        </li>
+        <li>
+            <img data-src="./images/2.jpg" alt="loading">
+        </li>
+        <li>
+            <img data-src="./images/3.jpg" alt="loading">
+        </li>
+        <li>
+            <img data-src="./images/4.jpg" alt="loading">
+        </li>
+        <li>
+            <img data-src="./images/5.jpg" alt="loading">
+        </li>
+        <li>
+            <img data-src="./images/6.jpg" alt="loading">
+        </li>
+        <li>
+            <img data-src="./images/7.jpg" alt="loading">
+        </li>
+        <li>
+            <img data-src="./images/8.jpg" alt="loading">
+        </li>
+        <li>
+            <img data-src="./images/9.jpg" alt="loading">
+        </li>
+    </ul>
+    <div class="load-more">到底了</div>
+    <script>
+        let ul = document.querySelector('ul');
+        let more = document.querySelector('.load-more');
+        let io = new IntersectionObserver(changes => {
+            console.log(changes)
+            const { target, isIntersecting } = changes[0];
+            isIntersecting && loadMore()
+        })
+        io.observe(more)
+        function loadMore() {
+            let temp = new Array(9).fill();
+            let fragment = new DocumentFragment();
+            temp.map((item, index) => {
+                let li = document.createElement('li');
+                let img = new Image();
+                img.src = `./images/${index + 1}.jpg`
+                img.setAttribute('alt', 'loading');
+                li.appendChild(img);
+                fragment.appendChild(li);
+            })
+            ul.appendChild(fragment)
+        }
+    </script>
+</body>
+
+</html>
