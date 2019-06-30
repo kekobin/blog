@@ -1,4 +1,4 @@
-export default {
+const util = {
   	scrollTop: () => {
 		return document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
 	},

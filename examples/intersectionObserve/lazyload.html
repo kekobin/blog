@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style>
+		ul,li{list-style:none;}
+		.pos{height:800px;background:green;}
+	</style>
+</head>
+<body>
+	<div class="pos"></div>
+	<ul class="wrap">
+		<li><img data-src="../img/1.jpeg"></li>
+		<li><img data-src="../img/2.jpeg"></li>
+		<li><img data-src="../img/3.jpeg"></li>
+		<li><img data-src="../img/4.jpeg"></li>
+		<li><img data-src="../img/5.jpeg"></li>
+		<li><img data-src="../img/6.jpeg"></li>
+		<li><img data-src="../img/7.jpeg"></li>
+		<li><img data-src="../img/8.jpeg"></li>
+	</ul>
+	<script src="../util.js"></script>
+	<script>
+		const imgs = Array.from(document.querySelectorAll('img'));
+
+		// 1 传统
+		// window.addEventListener('scroll', lazyload);
+		// function lazyload() {
+			// const innerHeight = util.innerHeight();
+			// const scrollTop = util.scrollTop();
+
+		// 	imgs.forEach((img) => {
+		// 		const imgOffsetH = util.getPosition(img).top;)
+		// 		// 距离页面顶部的距离 <= 视窗高 + 往上滚进去的距离
+		// 		if(imgOffsetH <= innerHeight + scrollTop) {
+		// 			img.src = img.dataset.src;
+		// 		}
+		// 	})
+		// }
+
+		// intersectionObserve
+		const io = new IntersectionObserver((entrys) => {
+			entrys.forEach((entry) => {
+				if(!entry.isIntersecting) return;
+				const img = entry.target;
+				img.src = img.dataset.src;
+				img.onload = img.onerror => io.unobserve(img);
+			})
+		}, {
+			rootMargin:'0px 0px 50px 0px'
+		})
+
+		imgs.forEach((img) => {
+			io.observe(img);
+		})
+	</script>
+</body>
+</html>
