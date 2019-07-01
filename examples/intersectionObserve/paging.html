@@ -31,14 +31,14 @@
 		// 	const scrollHeight = util.scrollHeight();
 		// 	// 滚动到距离底部50px
 		// 	if(innerHeight + scrollTop >= scrollHeight - 50) {
-		// 		loadMore(page++);
+		// 		loadMore();
 		// 	}
 		// });
 		// intersectionObserver
 		const io = new IntersectionObserver((entrys) => {
 			entrys.forEach((entry) => {
 				if(!entry.isIntersecting) return;
-				loadMore(page++);
+				loadMore();
 			})
 		}, {
 			rootMargin:'0px 0px 50px 0px'
@@ -46,7 +46,7 @@
 		//监听最底部的loadmore是否出现
 		const lMore = document.querySelector('.load-more');
 		io.observe(lMore);
-		function loadMore(p) {
+		function loadMore() {
 			const fragment = new DocumentFragment();
 			for(let i=0;i<10;i++) {
 				const li = document.createElement('li');
@@ -54,6 +54,7 @@
 				fragment.appendChild(li);
 			}
 			content.appendChild(fragment);
+			page++;
 		}
 	</script>
 </body>
