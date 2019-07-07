@@ -11,3 +11,8 @@
 
 ## 译文
 [【译】使用Javascript mixins](https://github.com/kekobin/blog/issues/3)
+
+## 前端架构
+【架构】之项目级GIT操作流程
+【架构】之本地NPM仓库搭建与应用
+【架构】之docker搭建与应用
