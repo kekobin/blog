@@ -24,9 +24,6 @@
 【Node基础篇】之流stream    
 【Node基础篇】之数据加密crypto     
 
-## 译文
-[【译】使用Javascript mixins](https://github.com/kekobin/blog/issues/3)
-
 ## 前端架构
 【架构】之项目级GIT操作流程   
 【架构】之本地NPM仓库搭建与应用   
@@ -38,3 +35,7 @@
 【单元测试】之断言库chai使用   
 【单元测试】之代码覆盖率工具Istanbul使用      
 【单元测试】之持续集成travis-cli   
+
+
+## 译文
+[【译】使用Javascript mixins](https://github.com/kekobin/blog/issues/3)
