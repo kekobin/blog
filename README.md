@@ -10,9 +10,19 @@
 ## CSS
 [【CSS零碎】之em、rem](https://github.com/kekobin/blog/issues/4)
 
-## NodeJS   
-【Node零碎】之模块机制   
+## NodeJS     
 【Node零碎】之事件循环机制   
+
+【Node基础篇】之路径处理path   
+【Node基础篇】之文件操作fs   
+【Node基础篇】之进程process   
+【Node基础篇】之子进程child_process   
+【Node基础篇】之模块机制module      
+【Node基础篇】之事件机制event   
+【Node基础篇】之网络服务http   
+【Node基础篇】之集群cluster   
+【Node基础篇】之流stream    
+【Node基础篇】之数据加密crypto     
 
 ## 译文
 [【译】使用Javascript mixins](https://github.com/kekobin/blog/issues/3)
