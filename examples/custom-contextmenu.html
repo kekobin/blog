@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contentmenu</title>
+    <meta charset="UTF-8" />
+    <style>
+    .custom-menu-area {
+      width: 500px;
+      height: 500px;
+      background: green;
+    }
+    ul,
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    li {
+      width: 100%;
+      text-align: left;
+      height: 45px;
+      line-height: 45px;
+      font-weight: bold;
+    }
+    li:hover {
+      background: #f2f2f2;
+    }
+    #customMenu{
+      visibility: hidden;
+      position: absolute;
+      top:0;
+      left:0;
+      z-index: 999;
+      width:100px;
+      background: yellow;
+      text-align: center;
+    }
+    </style>
+  </head>
+
+  <body>
+    <h3>鼠标右键自定义</h3>
+    <div class="custom-menu-area"></div>
+    <ul id="customMenu">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
+    <script>
+    const el = document.getElementById('customMenu')
+    const el2 = document.querySelector('.custom-menu-area')
+
+    // 禁止el2区域的右键鼠标默认事件，显示自定义的右键列表
+    el2.addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+      // 更新自定义右边列表的位置
+      el.style.top = e.clientY + 'px';
+      el.style.left = e.clientX + 'px';
+      // 显示自定义右边列表
+      el.style.visibility = 'visible';
+    })
+
+    // 在空白位置点击时，应该隐藏掉自定义右边列表
+    document.body.addEventListener('click', () => {
+      el.style.visibility = 'hidden';
+    })
+    </script>
+  </body>
+</html>
