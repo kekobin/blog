@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<style>
+		#chatContainer {
+		  position: relative;
+		  width: 300px;
+		  height: 200px;
+		  background: green;
+		  overflow-y:  scroll;
+		}
+		ul,
+		li {
+		  list-style: none;
+		  margin: 0;
+		  padding: 0;
+		}
+		li {
+		  height: 30px;
+		  line-height: 30px;
+		  border-bottom: 1px solid red;
+		}
+	</style>
+</head>
+<body>
+	<div id="chatContainer">
+	    <ul id="listWrap">
+	    </ul>
+	</div>
+	<script>
+		const cc = document.querySelector('#chatContainer');
+		const lw = document.querySelector('#listWrap');
+		let i = 0;
+		// 每隔1s向listWrap插入一个li，模拟一条消息
+		setInterval(() => {
+			const li = document.createElement('li');
+			li.innerHTML = `aa-${i++}`;
+			lw.appendChild(li);
+			// 获取容器和ul高度
+			const cch = parseInt(window.getComputedStyle(cc, null).height);
+			const lwh = parseInt(window.getComputedStyle(lw, null).height);
+
+			// 当ul高度大于容器高度时，重设ul的scrollTop
+			if(cch < lwh) {
+				cc.scrollTop = lwh - cch;
+				console.log(lw.scrollTop);
+			}
+		}, 1000)
+	</script>
+</body>
+</html>
