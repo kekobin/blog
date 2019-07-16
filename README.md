@@ -9,7 +9,6 @@
 【Javascript零碎】之事件循环机制   
 
 [【Js-Dom】之scrollTop](https://github.com/kekobin/blog/issues/7)   
-【Js-Dom】之dom常见基础操作及$封装   
 【Js-Dom】之自定义滚动条封装      
 【Js-Dom】之touch事件         
 【Js-Dom】之常见事件应用封装库   
