@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <style>
+            .box{
+                height:100px;
+                width:100px;
+                border:15px solid black;
+                animation: anime 10s ease-in-out 3 alternate paused;
+            }
+            .box:hover{
+                animation-play-state: running;
+            }
+            @keyframes anime {
+                10% {  background:red;  }
+                50% {  width:80px;  }
+                70% {  border:15px solid yellow;  }
+                100% {  width:180px;  height:180px;  }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>
