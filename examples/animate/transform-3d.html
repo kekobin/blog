@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+	<style>
+	.ball1 {
+		position:absolute;
+		width: 40px;
+		height:40px;
+		border-radius:40px;
+		background:green;
+		-webkit-animation: round1 4s ease-in infinite;
+	}
+
+	@keyframes round1 {
+		0%: {
+    	top:0;
+			left:0;
+		}
+
+		25% {
+			top:0px;
+			left:100px;
+		}
+
+		50% {
+			top:100px;
+			left:100px;
+		}
+
+		75% {
+			top:100px;
+			left:0px;
+		}
+	}
+
+	.ball2 {
+		position:absolute;
+		width: 40px;
+		height:40px;
+		border-radius:40px;
+		transform: translate(120px, 0);
+		background:red;
+		-webkit-animation: round2 4s ease-in infinite;
+	}
+
+	@keyframes round2 {
+		0%: {
+    transform: translate(120px, 0);
+		}
+
+		25% {
+			transform: translate(220px, 0);
+		}
+
+		50% {
+			transform: translate(220px, 200px);
+		}
+
+		75% {
+			transform: translate(120px, 200px);
+		}
+	}
+	</style>
+</head>
+
+<body>
+	<div class="ball1"></div>
+	<div class="ball2"></div>
+	</script>
+</body>
+
+</html>
