@@ -24,7 +24,7 @@
 【Node零碎】之事件循环机制   
 
 【Node基础篇】之路径处理path   
-【Node基础篇】之文件操作fs   
+[【Node基础篇】之文件操作fs](https://github.com/kekobin/blog/issues/9)   
 【Node基础篇】之进程process   
 【Node基础篇】之子进程child_process   
 【Node基础篇】之模块机制module      
