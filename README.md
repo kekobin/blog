@@ -1,6 +1,9 @@
 # 前端技术博文
 > 感觉日常摧枯拉朽的学习各种知识点，都只是浅薄的了解，而不是深刻的领悟。
-> 通过写博客的形式，能够让你静下心来去思考更多深入性的内容，把知识点较为完整的沉淀下来。
+> 通过写博客的形式，能够让你静下心来去思考更多深入性的内容，把知识点较为完整的沉淀下来。     
+
+## 动画    
+[大前端之动画(一)](https://github.com/kekobin/blog/issues/8)    
 
 ## Javascript
 [【Javascript零碎】之各种宽高属性及应用](https://github.com/kekobin/blog/issues/1)   
@@ -33,6 +36,9 @@
 【Node基础篇】之集群cluster   
 【Node基础篇】之流stream    
 【Node基础篇】之数据加密crypto     
+[【Node基础篇】之nginx](https://github.com/kekobin/blog/issues/12)    
+[【Node基础篇】之mysql](https://github.com/kekobin/blog/issues/11)          
+[【Node基础篇】之rsync](https://github.com/kekobin/blog/issues/10)     
 
 ## 前端架构
 【架构】之项目级GIT操作流程   
