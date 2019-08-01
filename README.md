@@ -38,7 +38,6 @@
 【Node基础篇】之数据加密crypto     
 [【Node基础篇】之nginx](https://github.com/kekobin/blog/issues/12)    
 [【Node基础篇】之mysql](https://github.com/kekobin/blog/issues/11)          
-[【Node基础篇】之rsync](https://github.com/kekobin/blog/issues/10)     
 
 ## 前端架构
 【架构】之项目级GIT操作流程   
