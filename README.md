@@ -6,7 +6,7 @@
 [大前端之动画(一)](https://github.com/kekobin/blog/issues/8)    
 
 ## DOM            
-[DOM基础](https://github.com/kekobin/blog/issues/18)   
+[DOM基础](https://github.com/kekobin/blog/issues/19)   
 
 
 ## Javascript
@@ -14,7 +14,7 @@
 [【Javascript零碎】之IntersectionObserver](https://github.com/kekobin/blog/issues/2)   
 [【Javascript零碎】之自定义鼠标右键列表](https://github.com/kekobin/blog/issues/5)     
 【Javascript零碎】之事件循环机制         
-[【Javascript零碎】之正则](https://github.com/kekobin/blog/issues/17)                     
+[【Javascript零碎】之正则](https://github.com/kekobin/blog/issues/18)                     
 
 [【Js-Dom】之scrollTop](https://github.com/kekobin/blog/issues/7)   
 【Js-Dom】之自定义滚动条封装      
