@@ -52,7 +52,8 @@
 【架构】之项目级GIT操作流程   
 【架构】之本地NPM仓库搭建与应用   
 【架构】之docker搭建与应用     
-【架构】之sentry搭建与应用    
+【架构】之sentry搭建与应用       
+[【架构】之本地npm服务搭建](https://github.com/kekobin/blog/issues/26)       
 
 ## 单元测试相关   
 【单元测试】之mocha使用   
