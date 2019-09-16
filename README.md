@@ -46,7 +46,8 @@
 [【Node基础篇】之nginx](https://github.com/kekobin/blog/issues/12)    
 [【Node基础篇】之mysql](https://github.com/kekobin/blog/issues/11)      
 [【Node基础篇】之linux rsync](https://github.com/kekobin/blog/issues/10)        
-[【Node实战篇】之egg中数据库的应用](https://github.com/kekobin/blog/issues/15)        
+[【Node实战篇】之egg中数据库的应用](https://github.com/kekobin/blog/issues/15)  
+[【Node实战篇】之CAS登录](https://github.com/kekobin/blog/issues/28)  
 
 ## 前端架构
 【架构】之项目级GIT操作流程   
