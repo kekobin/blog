@@ -35,6 +35,7 @@
 
 [【Node基础篇】之文件操作path](https://github.com/kekobin/blog/issues/16)   
 [【Node基础篇】之文件操作fs](https://github.com/kekobin/blog/issues/9)   
+[【Node基础篇】之Buffer](https://github.com/kekobin/blog/issues/30)   
 【Node基础篇】之进程process   
 【Node基础篇】之子进程child_process   
 【Node基础篇】之模块机制module      
