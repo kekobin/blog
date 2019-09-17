@@ -46,6 +46,7 @@
 [【Node基础篇】之nginx](https://github.com/kekobin/blog/issues/12)    
 [【Node基础篇】之mysql](https://github.com/kekobin/blog/issues/11)      
 [【Node基础篇】之linux rsync](https://github.com/kekobin/blog/issues/10)        
+[【Node基础篇】之linux常用命令](https://github.com/kekobin/blog/issues/23)     
 [【Node实战篇】之egg中数据库的应用](https://github.com/kekobin/blog/issues/15)  
 [【Node实战篇】之同域和非同域下的CAS登录](https://github.com/kekobin/blog/issues/28)  
 
