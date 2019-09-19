@@ -37,7 +37,8 @@ Node零碎之事件循环机制
 [Node基础篇之文件操作fs](https://github.com/kekobin/blog/issues/9)   
 [Node基础篇之Buffer](https://github.com/kekobin/blog/issues/30)   
 [Node基础篇之网络编程](https://github.com/kekobin/blog/issues/32)    
-[Node基础篇之网络服务http](https://github.com/kekobin/blog/issues/33)    
+[Node基础篇之网络服务http](https://github.com/kekobin/blog/issues/33)     
+[Node基础篇之url](https://github.com/kekobin/blog/issues/34)    
 Node基础篇之进程process   
 Node基础篇之子进程child_process   
 Node基础篇之模块机制module      
