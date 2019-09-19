@@ -39,7 +39,7 @@ Node零碎之事件循环机制
 [Node基础篇之网络编程](https://github.com/kekobin/blog/issues/32)    
 [Node基础篇之网络服务http](https://github.com/kekobin/blog/issues/33)     
 [Node基础篇之url和querystring](https://github.com/kekobin/blog/issues/34)    
-Node基础篇之进程process   
+[Node基础篇之进程process](https://github.com/kekobin/blog/issues/35)      
 Node基础篇之子进程child_process   
 Node基础篇之模块机制module      
 Node基础篇之事件机制event   
