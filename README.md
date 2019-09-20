@@ -41,9 +41,9 @@ Node零碎之事件循环机制
 [Node基础篇之url和querystring](https://github.com/kekobin/blog/issues/34)    
 [Node基础篇之进程process](https://github.com/kekobin/blog/issues/35)    
 [Node基础篇之子进程child_process](https://github.com/kekobin/blog/issues/36)  
+[Node基础篇之集群cluster](https://github.com/kekobin/blog/issues/38)  
 Node基础篇之模块机制module      
-Node基础篇之事件机制event   
-Node基础篇之集群cluster   
+Node基础篇之事件机制event    
 Node基础篇之流stream    
 Node基础篇之数据加密crypto     
 [Node基础篇之nginx](https://github.com/kekobin/blog/issues/12)    
