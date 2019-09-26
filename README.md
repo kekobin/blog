@@ -24,6 +24,7 @@ Js-Dom之上拉下拉刷新
 Js-Dom之Iscroll实现    
 Js-Dom之Swiper实现    
 
+[H5社交分享总结](https://github.com/kekobin/blog/issues/42)     
 [FileReader 和 Blob](https://github.com/kekobin/blog/issues/44)     
 
 [Js性能一](https://github.com/kekobin/blog/issues/20) 
