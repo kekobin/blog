@@ -60,15 +60,37 @@ Node基础篇之模块机制module
 [Node实战篇之同域和非同域下的CAS登录](https://github.com/kekobin/blog/issues/28)  
 [[转]聊聊 Node.js RPC（一）— 协议](https://github.com/kekobin/blog/issues/31)     
 
-# Vue           
-[vue基础知识点]
+## Vue           
+vue基础知识点           
+vue-router使用            
+vuex使用            
+vue-router源码解析        
+vuex源码解析                    
+vue源码解析             
+vue-ssr初探                
+
+## React      
+react基础知识点         
+react-router使用     
+redux使用           
+react-router源码解析              
+redux源码解析               
+react源码解析             
+react-ssr初探            
+react-native使用             
 
 ## 前端架构
 架构之项目级GIT操作流程   
-架构之本地NPM仓库搭建与应用   
+架构之本地gitlab搭建与应用        
 架构之docker搭建与应用     
+架构之jenkins搭建与应用     
 架构之sentry搭建与应用       
 [架构之本地npm服务搭建](https://github.com/kekobin/blog/issues/26)       
+
+## 编程基础         
+正则表达式          
+常见数据结构         
+常见算法学习              
 
 ## 单元测试相关   
 单元测试之mocha使用   
