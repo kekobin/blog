@@ -60,6 +60,9 @@ Node基础篇之模块机制module
 [Node实战篇之同域和非同域下的CAS登录](https://github.com/kekobin/blog/issues/28)  
 [[转]聊聊 Node.js RPC（一）— 协议](https://github.com/kekobin/blog/issues/31)     
 
+# Vue           
+[vue基础知识点]
+
 ## 前端架构
 架构之项目级GIT操作流程   
 架构之本地NPM仓库搭建与应用   
