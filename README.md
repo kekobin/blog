@@ -11,6 +11,7 @@
 
 ## Javascript            
 [Javascript零碎之基础一](https://github.com/kekobin/blog/issues/48)   
+[Javascript零碎之基础二](https://github.com/kekobin/blog/issues/49)   
 [Javascript零碎之各种宽高属性及应用](https://github.com/kekobin/blog/issues/1)   
 [Javascript零碎之IntersectionObserver](https://github.com/kekobin/blog/issues/2)   
 [Javascript零碎之自定义鼠标右键列表](https://github.com/kekobin/blog/issues/5)     
