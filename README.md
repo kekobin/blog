@@ -15,7 +15,7 @@
 [Javascript零碎之各种宽高属性及应用](https://github.com/kekobin/blog/issues/1)   
 [Javascript零碎之IntersectionObserver](https://github.com/kekobin/blog/issues/2)   
 [Javascript零碎之自定义鼠标右键列表](https://github.com/kekobin/blog/issues/5)     
-Javascript零碎之事件循环机制         
+[Javascript零碎之事件循环机制](https://github.com/kekobin/blog/issues/51)     
 [Javascript零碎之正则](https://github.com/kekobin/blog/issues/18)                     
 
 [Js-Dom之scrollTop](https://github.com/kekobin/blog/issues/7)   
