@@ -37,8 +37,7 @@ Js-Dom之Swiper实现
 [CSS零碎之zIndex](https://github.com/kekobin/blog/issues/6)   
 
 ## NodeJS     
-Node零碎之事件循环机制   
-
+[Node零碎之事件循环机制](https://github.com/kekobin/blog/issues/52)   
 [Node基础篇之文件操作path](https://github.com/kekobin/blog/issues/16)   
 [Node基础篇之文件操作fs](https://github.com/kekobin/blog/issues/9)   
 [Node基础篇之Buffer](https://github.com/kekobin/blog/issues/30)   
