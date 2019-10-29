@@ -33,7 +33,8 @@ Js-Dom之Swiper实现
 
 [Js性能一](https://github.com/kekobin/blog/issues/20) 
 
-[[转]前端模块化标准对比 iife amd cmd cjs umd es6](https://github.com/kekobin/blog/issues/55)
+[[转]前端模块化标准对比 iife amd cmd cjs umd es6](https://github.com/kekobin/blog/issues/55)           
+[[转](深入理解 ES6 模块机制) ](https://github.com/kekobin/blog/issues/56)          
 
 ## CSS
 [CSS零碎之em、rem](https://github.com/kekobin/blog/issues/4)    
