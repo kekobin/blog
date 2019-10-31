@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="croppie.css">
+	<style type="text/css" media="screen">
+		.photo {
+		  position: absolute;
+		  top: 32px;
+		  right: 32px;
+		  z-index: 11;
+		  width: 80px;
+		  height: 80px;
+		  background: green;
+		}
+		.file-input {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  z-index: 20;
+		  opacity: 0;
+		}
+		.btn-small {
+		  width: 410px;
+		  height: 72px;
+		  display: block;
+		  line-height: 72px;
+		  background: #FF2474;
+		  border-radius: 72px;
+		  border: 2px solid rgba(255, 36, 116, 1);
+		  font-size: 30px;
+		  font-weight: 500;
+		  color: rgba(255, 255, 255, 1);
+		  margin: 0 auto;
+		  text-align: center;
+		}
+		.croppie-wrap {
+		    margin: 10% auto 0;
+		    height: 86%;
+		}
+		.croppied-image-wrap {
+	      display: none;
+	      position: absolute;
+	      z-index: -1000;
+	    }
+	    .cut-content {
+		    width: 500px;
+		    height: 500px;
+		    overflow: scroll;
+		    background: #000;
+		    position: relative;
+		    z-index: 2;
+		}
+		.croppie-container .cr-boundary {
+			overflow: visible!important;
+		}
+	</style>
+</head>
+<body>
+	<div class="photo">
+      <form id="fileform">
+        <input class="btn-small file-input" accept="image/*" type="file" id="filechooser" onchange="chooseFile(event)"/>选择图片
+      </form>
+    </div>
+    <div class="cut-content">
+    	<div id="croppie-container" class="croppie-wrap"></div>
+    </div>
+    
+    <button class="btn-ok" onclick="croppie()">裁剪</button>
+	<script src="croppie.min.js"></script>
+	<script src="compress.js"></script>
+	<script src="exif.js"></script>
+	<script>
+		let compressedBase64, croppieTarget;
+
+		function chooseFile(e) {
+	      // 获取图片
+	      const { files } = e.target;
+	      const file = files[0];
+
+	      // clear cache
+	      const form = document.getElementById('fileform');
+	      if (form) {
+	        form.reset();
+	      }
+
+	      // 接受 jpeg, jpg, png 类型的图片
+	      if (!/\/(?:jpeg|jpg|png)/i.test(file.type)) {
+	        // Toast.show({
+	        //   text: 'only support picture'
+	        // });
+	        return;
+	      }
+
+	      handleFile(file);
+	    }
+
+	    function  handleFile(localFile) {
+	      if (localFile) {
+	        const file = localFile;
+
+	        let orientation = null;
+	        EXIF.getData(file, function getOrientation() {
+	          orientation = EXIF.getTag(this, 'Orientation');
+	          const reader = new FileReader();
+	          reader.onload = function onload() {
+	            const { result } = this;
+
+	            let img = new Image();
+	            // 进行图片的渲染
+	            img.onload = () => {
+	              const ret = compress(img, orientation);
+	              initCroppie(ret);
+	              img = null;
+	            };
+	            img.src = result;
+	          };
+	          reader.readAsDataURL(file);
+	        }, () => {
+	          // alert error
+	        });
+	      }
+	    }
+
+	    function initCroppie(base64) {
+	      // 缓存处理过的图片base64
+	      compressedBase64 = base64;
+
+	      const el = document.getElementById('croppie-container');
+
+	      const scrollWidth = document.body.scrollWidth;
+	      const width = Math.floor(scrollWidth * 0.928);
+	      const height = Math.floor(scrollWidth * 1.222);
+
+	      // this.imgSrc = uploadRet.data;
+	      if (window.Croppie) {
+	        croppieTarget = new window.Croppie(el, {
+	          viewport: { width, height },
+	          showZoomer: false,
+	          enableOrientation: false
+	        });
+
+	        croppieTarget.bind({
+	          url: base64,
+	          orientation: 4
+	        });
+	      }
+	    }
+	    //裁剪
+	    function croppie() {
+	      // 如果这里1400ms都没有进入回调，则执行上面定时器的逻辑，使用原图进行合成，否则清楚掉定时器，执行裁剪图片合成
+	      if (croppieTarget) {
+	        croppieTarget.result('blob').then((blob) => {
+	          const fd = new FormData();
+	          fd.append('img', blob, 'test');
+
+	          console.log(blob)
+	          try {
+	            // const res = await uploadImg(fd);
+
+	            // if (res.code === 0) {
+	            //   const { url } = res.data;
+	            //   this.makingPic(url);
+	            // }
+	          } catch (e) {
+	          }
+	        });
+	      }
+	    }
+	</script>	
+</body>
+</html>
