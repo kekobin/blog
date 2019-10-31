@@ -27,7 +27,7 @@ Js-Dom之上拉下拉刷新
 Js-Dom之Iscroll实现    
 Js-Dom之Swiper实现    
 
-[抽象语法数AST](https://github.com/kekobin/blog/issues/59)
+[抽象语法树AST](https://github.com/kekobin/blog/issues/59)
 
 [H5社交分享总结](https://github.com/kekobin/blog/issues/42)     
 [FileReader、Blob、FormData、atob、btoa](https://github.com/kekobin/blog/issues/44)     
