@@ -38,7 +38,8 @@ Js-Dom之Swiper实现
 [[转]前端模块化标准对比 iife amd cmd cjs umd es6](https://github.com/kekobin/blog/issues/55)           
 [[转](深入理解 ES6 模块机制) ](https://github.com/kekobin/blog/issues/56)    
 [[转]CommonJS、AMD/CMD、ES6 Modules](https://github.com/kekobin/blog/issues/57)    
-[[转]超级简单的编译器](https://github.com/kekobin/blog/issues/60)            
+[[转]超级简单的编译器](https://github.com/kekobin/blog/issues/60)     
+[[转]jscodeshift 简易教程](https://github.com/kekobin/blog/issues/62)     
 
 ## CSS
 [CSS零碎之em、rem](https://github.com/kekobin/blog/issues/4)    
