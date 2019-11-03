@@ -103,7 +103,8 @@ react-native使用
 
 ## 基础工具       
 webpack深入            
-[rollup深入](https://github.com/kekobin/blog/issues/58)                     
+[rollup深入](https://github.com/kekobin/blog/issues/58)    
+[babel知识点](https://github.com/kekobin/blog/issues/63)     
 gulp深入              
 
 ## 编程基础         
