@@ -110,6 +110,7 @@ function reorderChildren(node, moves) {
 // var oldList = [{id: "a"}, {id: "b"}, {id: "c"}, {id: "d"}, {id: "e"}]
 // // 只更改 位置 0和4
 // var newList = [{id: "n"}, {id: "b"}, {id: "c"}, {id: "d"}, {id: "f"}]
+// 根据id属性进行差异比对
 // var moves = diff(oldList, newList, "id")
 // console.log(moves)
 // /*
