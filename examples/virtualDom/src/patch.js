@@ -76,7 +76,8 @@ function reorderChildren(node, moves) {
 	const staticNodeList = [ ...node.childNodes ]
 	// 用于存储staticNodeList中节点的key和对应节点映射
 	const maps = {}
-	// 检索出设有key的节点，并使用map存储其key-node映射
+	// 检索出设有key的节点，并使用map存储其key-node映射,之所以要做这一步，是因为moves中的item只会存元素的key，并不会存节点元素，
+  // 座椅下面遍历moves时，需要根据映射关系获取到key对应的元素节点
 	staticNodeList.forEach(n => {
 		// 只存元素的key
 		if (n.nodeType === 1) {
