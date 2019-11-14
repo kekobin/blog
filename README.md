@@ -33,7 +33,9 @@ Js-Dom之Swiper实现
 [抽象语法树AST](https://github.com/kekobin/blog/issues/59)             
 [广度优先遍历（BFS）和深度优先遍历（DFS）](https://github.com/kekobin/blog/issues/66)       
 
-[H5社交分享总结](https://github.com/kekobin/blog/issues/42)     
+[js 转码与解码emoji](https://github.com/kekobin/blog/issues/69)  
+
+[H5社交分享总结](https://github.com/kekobin/blog/issues/42)  
 [FileReader、Blob、FormData、atob、btoa](https://github.com/kekobin/blog/issues/44)     
 [H5获取相册图片进行编辑裁剪上传](https://github.com/kekobin/blog/issues/43)     
 
