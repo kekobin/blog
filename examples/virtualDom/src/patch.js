@@ -24,8 +24,9 @@ function dfsWalk(node, watcher, patches) {
 	// 当前节点检索完了，遍历其子节点情况
 	const { childNodes } = node 
 	childNodes.forEach(child => {
-		// 这里需要知道的是: html解析dom树也是按照类似dfs深度遍历算法去解析和渲染的，
-		// 所以可以直接根据子节点数加1就是对应节点的索引
+		// 这里隐藏了一个技巧：这里watcher.index指的是当前节点的dfs算法对应的索引，才能
+    // 使用patches[watcher.index]匹配到前面经过dfs算法得到的节点差异对象。这里直接+1
+    // 因为后面继续递归执行了dfsWalk，并传入了watcher，所以等到下一个子节点，如childNodes[1]时，watcher.index已经是指向了childNodes[0]的最后那个子节点了。
 		watcher.index += 1
 		dfsWalk(child, watcher, patches)
 	})
