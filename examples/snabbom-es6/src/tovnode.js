@@ -1,5 +1,6 @@
 import vnode from './vnode';
 import htmlDomApi from './htmldomapi';
+// 将真实的dom节点转换成虚拟Dom节点
 export function toVNode(node, domApi) {
     var api = domApi !== undefined ? domApi : htmlDomApi;
     var text;

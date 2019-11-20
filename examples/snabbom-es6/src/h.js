@@ -49,6 +49,7 @@ export function h(sel, b, c) {
         (sel.length === 3 || sel[3] === '.' || sel[3] === '#')) {
         addNS(data, children, sel);
     }
+    // 上面仅仅是对h参数进行优化处理，得到vnode需要的入参，最终返回vnode的调用结果，即生成js虚拟node
     return vnode(sel, data, children, text, undefined);
 }
 ;
