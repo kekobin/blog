@@ -125,6 +125,8 @@ gulp深入
 单元测试之代码覆盖率工具Istanbul使用      
 单元测试之持续集成travis-cli   
 
+## 前端面试题      
+[从输入URL到页面加载发生了什么](https://github.com/kekobin/blog/issues/70)
 
 ## 译文
 [【译】使用Javascript mixins](https://github.com/kekobin/blog/issues/3)
