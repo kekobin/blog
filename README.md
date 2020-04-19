@@ -126,10 +126,10 @@ gulp深入
 单元测试之持续集成travis-cli   
 
 ## 前端面试题      
-[从输入URL到页面加载发生了什么](https://github.com/kekobin/blog/issues/70)
-[HTTPS加密过程和TLS证书验证](https://github.com/kekobin/blog/issues/73)
-[谈谈js垃圾回收机制](https://github.com/kekobin/blog/issues/72)
-[防抖和节流](https://github.com/kekobin/blog/issues/71)
+[从输入URL到页面加载发生了什么](https://github.com/kekobin/blog/issues/70)     
+[HTTPS加密过程和TLS证书验证](https://github.com/kekobin/blog/issues/73)      
+[谈谈js垃圾回收机制](https://github.com/kekobin/blog/issues/72)       
+[防抖和节流](https://github.com/kekobin/blog/issues/71)        
 
 ## 译文
 [【译】使用Javascript mixins](https://github.com/kekobin/blog/issues/3)
