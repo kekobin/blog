@@ -72,6 +72,7 @@ Js-Dom之Swiper实现
 [Node基础篇之mysql](https://github.com/kekobin/blog/issues/11)      
 [Node基础篇之linux rsync](https://github.com/kekobin/blog/issues/10)        
 [Node基础篇之linux常用命令](https://github.com/kekobin/blog/issues/24)     
+[Node基础篇之redis cli命令](https://github.com/kekobin/blog/issues/76)     
 
 [Node实战篇之egg中数据库的应用](https://github.com/kekobin/blog/issues/15)  
 [Node实战篇之同域和非同域下的CAS登录](https://github.com/kekobin/blog/issues/28)  
