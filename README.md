@@ -40,7 +40,8 @@ Js-Dom之Swiper实现
 
 [H5社交分享总结](https://github.com/kekobin/blog/issues/42)  
 [FileReader、Blob、FormData、atob、btoa](https://github.com/kekobin/blog/issues/44)     
-[H5获取相册图片进行编辑裁剪上传](https://github.com/kekobin/blog/issues/43)     
+[H5获取相册图片进行编辑裁剪上传](https://github.com/kekobin/blog/issues/43)      
+[(转)你不知道的blob](https://segmentfault.com/a/1190000022875544)      
 
 [Js性能一](https://github.com/kekobin/blog/issues/20) 
 
