@@ -78,11 +78,8 @@ Js-Dom之Swiper实现
 [Node实战篇之同域和非同域下的CAS登录](https://github.com/kekobin/blog/issues/28)  
 [[转]聊聊 Node.js RPC（一）— 协议](https://github.com/kekobin/blog/issues/31)     
 
-## Vue           
-vue基础知识点           
-vue-router使用            
-vuex使用            
-vue-router源码解析        
+## Vue                     
+[vue-router简版实现](https://github.com/kekobin/blog/issues/93)                  
 vuex源码解析                    
 vue源码解析             
 vue-ssr初探                
